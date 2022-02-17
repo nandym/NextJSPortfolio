@@ -1,6 +1,6 @@
 import { ChakraProvider } from "@chakra-ui/react"
 import Layout from "../components/Layouts/main"
-import theme from "./theme"
+import theme from "../components/Layouts/theme"
 import "@fontsource/m-plus-rounded-1c"
 import "@fontsource/source-code-pro"
 
