@@ -102,7 +102,7 @@ return(
         </Box>
 
         <Box mb={20}>
-        Last Year I began making a website and decided to learn Angular, but then Next.js kidnapped me and I've switched to making the Portfolio using it instead.
+        2021 I began making a website and decided to learn Angular, but then Next.js kidnapped me and I've switched to making the Portfolio using it instead.
         <br></br>
         <br></br>
         I brought my idea of making boxes with my works to this website, and have images of the code used. I also have to say Angular was great for handling data.

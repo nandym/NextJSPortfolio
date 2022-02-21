@@ -60,7 +60,7 @@ return (
              
                 <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox>
             
-                <WorkBox imgSrc="/images/UnityMP.png" name="Unity"></WorkBox>
+                <WorkBox imgSrc="/images/UnityMP.png" name="UnityRPG"></WorkBox>
                
                 <WorkBox imgSrc="/images/HorrorGame.png" name="Horror"></WorkBox>
                

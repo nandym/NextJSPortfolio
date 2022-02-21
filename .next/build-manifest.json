@@ -25,6 +25,11 @@
       "static/chunks/main.js",
       "static/chunks/pages/Folios/Horror.js"
     ],
+    "/Folios/UnityRPG": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Folios/UnityRPG.js"
+    ],
     "/Folios/Unreal": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
