@@ -19,7 +19,7 @@ return(
 
         <Box align="center" mb={12}>
             <Heading as="h2">
-                Unity game using Proton
+                Unity game using PUN2
             </Heading>
         </Box>
 
@@ -45,7 +45,7 @@ return(
         whileHover={{scale:1.4}}transition={{duration:.7}}
         >
         <Box mb={12}>
-            <Image src="/images/CreateMatch.gif" alt="Create a Match"></Image>
+            <Image src="/images/CreateMatch.gif" alt="Create a Match" playbackRate="2"></Image>
         </Box>
         </MotionBox>
         <Box mb={12}>
@@ -104,6 +104,18 @@ return(
             A Boss with a few mechanics, was a great challenge for multiplayer as he also affected the environment!
         </Box>
 
+
+        <MotionBox
+        whileHover={{scale:1.7}}transition={{duration:.7}}
+        >
+        <Box mb={12}>
+            <Image src="/images/UnityGame/BossDecisionTree.png" alt="Boss"></Image>
+        </Box>
+        </MotionBox>
+
+        <Box mb={12}>
+            The Decision tree of the boss seen above.
+        </Box>
 
         <MotionBox
         whileHover={{scale:1.4}}transition={{duration:.7}}

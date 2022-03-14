@@ -30,10 +30,10 @@ return (
             borderColor="blackAlpha.700"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="150px"
+            maxWidth="154px"
             display="inline-block"
             borderRadius="full"
-            src="/images/circle.png"
+            src="/images/PhotoZ.jpg"
             alt="Profile image"
             
           />
