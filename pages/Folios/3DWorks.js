@@ -1,64 +1,11 @@
 import { Box, Container, Heading } from "@chakra-ui/layout"
 import { motion } from "framer-motion"
 import { Image,OrderedList,ListItem } from '@chakra-ui/react';
-import { Chrono } from 'react-chrono';
-
-const Timeline = () => {
-    const items = [
-{
-title:"circa 2008",
-cardSubtitle:"Messed around with google blogs"
-
-},
-{
-title:"2012",
-cardSubtitle:"Finally learned about html"
-
-},
-{
-title:"2015",
-cardSubtitle:"Learned web-development in HighSchool"
-
-},
-{
-title:"2018",
-cardSubtitle:"Developed a javascript custom website for a final year project"    
-},
-{
-title:"2021",
-cardSubtitle:"Learned Angular,React and Next.js"
-
-}
-];
 
 
-
-return (
-    <div style={{ width: "350px", height: "auto" }}>
-    <Chrono
-      items={items}
-      scrollable={false}
-      useReadMore={false}
-      disableClickOnCircle={true}
-      disableNavOnKey={true}
-      disableAutoScrollOnClick={true}
-      hideControls={true}
-      mode="VERTICAL_ALTERNATING"
-      theme={{ 
-        primary: "red",
-        secondary: "transparent",
-        cardBgColor: "transparent",
-        cardForeColor: "violet",
-        titleColor:"default"
-      }}
-    />
-  </div>
-  )
-
-}
 
 const MotionBox = motion(Box)
-const WebDev = () =>{
+const DWorks = () =>{
 
 return(
 
@@ -73,7 +20,7 @@ return(
     <Box>
         <Box align="center" mb={12}>
             <Heading as="h2">
-                Web-Development Journey
+                3D Works
             </Heading>
         </Box>
 
@@ -82,7 +29,7 @@ return(
         </Box>
 
         <Box mb={20} align="center">
-        <Timeline></Timeline>
+       
         </Box>
         <Box mb={12}>
             I've done Web-Dev since I was about 8, mostly because I was curious, but only really got into in during my Highschool years, where I learned Javascript, PhP and SQL.
@@ -143,4 +90,4 @@ return(
 }
 
 
-export default WebDev
+export default DWorks

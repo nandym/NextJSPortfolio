@@ -22,7 +22,7 @@ const WorkBox = ({imgSrc,name}) =>{
             
            
        
-            <Image w="100%" h="100%" src={imgSrc} p={1} position="relative"></Image>
+            <Image w="400px" h="234px" src={imgSrc} p={1} position="relative"></Image>
 
             
 

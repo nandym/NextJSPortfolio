@@ -41,7 +41,7 @@ return(
             The image above shows the first happy moment of this development, where after a few days of bug and problem solving I managed to have 4 players fully synced and interacting.
         </Box>
 
-        <MotionBox
+        {/* <MotionBox
         whileHover={{scale:1.4}}transition={{duration:.7}}
         >
         <Box mb={12}>
@@ -50,7 +50,7 @@ return(
         </MotionBox>
         <Box mb={12}>
             The first time me and a friend tested Steam Integration!
-        </Box>
+        </Box> */}
 
         <MotionBox
         whileHover={{scale:1.4}}transition={{duration:.7}}

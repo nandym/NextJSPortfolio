@@ -17,7 +17,7 @@ return (
 
         <Box borderRadius="lg" bg={useColorModeValue('orange.300', "rgba(237,137,54,.25)")} p={1} align="center" mb={10}>
 
-                        GameDev graduate who loves Programming, 3D, Art and Web-Development
+                        GameDev graduate focused on learning Programming, 3D, Art and Web-Development
 
         </Box>
 
@@ -44,7 +44,7 @@ return (
 
 
         <Box>
-            <Box align="center" mb={20}>
+            <Box align="center" mb={10}>
                 <Heading as="h3" size="md" variant="section-title">
                 Works
                 </Heading>
@@ -63,7 +63,8 @@ return (
                 <WorkBox imgSrc="/images/UnityMP.png" name="UnityRPG"></WorkBox>
                
                 <WorkBox imgSrc="/images/HorrorGame.png" name="Horror"></WorkBox>
-               
+                
+                <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
 
                 </SimpleGrid>
         </Box>
