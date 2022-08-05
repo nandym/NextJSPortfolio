@@ -30,7 +30,7 @@ return(
         </Box>
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/FMPF.png" alt="First Successful multiplayer test"></Image>
@@ -53,7 +53,7 @@ return(
         </Box> */}
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/TalentTree.jpg" alt="Talent Tree"></Image>
@@ -64,7 +64,7 @@ return(
         </Box>
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/Skills.jpg" alt="Skills"></Image>
@@ -78,7 +78,7 @@ return(
 
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/Shop.jpg" alt="Shop"></Image>
@@ -92,7 +92,7 @@ return(
 
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/Boss.jpg" alt="Boss"></Image>
@@ -106,7 +106,7 @@ return(
 
 
         <MotionBox
-        whileHover={{scale:1.7}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/BossDecisionTree.png" alt="Boss"></Image>
@@ -118,17 +118,12 @@ return(
         </Box>
 
         <MotionBox
-        whileHover={{scale:1.4}}transition={{duration:.7}}
+        whileHover={{scale:1.2}}transition={{duration:.1}}
         >
         <Box mb={12}>
             <Image src="/images/UnityGame/Environment.jpg" alt="Environment"></Image>
         </Box>
         </MotionBox>
-
-
-        <Box mb={20}>
-            An environment shot.
-        </Box>
 
         <Box mb={20}>
             Leaving a small comment.

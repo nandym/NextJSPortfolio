@@ -968,9 +968,14 @@
   dependencies:
     "glob" "7.1.7"
 
-"@next/swc-win32-x64-msvc@12.0.10":
-  "integrity" "sha512-oUIWRKd24jFLRWUYO1CZmML5+32BcpVfqhimGaaZIXcOkfQW+iqiAzdqsv688zaGtyKGeB9ZtiK3NDf+Q0v+Vw=="
-  "resolved" "https://registry.npmjs.org/@next/swc-win32-x64-msvc/-/swc-win32-x64-msvc-12.0.10.tgz"
+"@next/swc-linux-x64-gnu@12.0.10":
+  "integrity" "sha512-c79PcfWtyThiYRa1+3KVfDq0zXaI8o1d6dQWNVqDrtLz5HKM/rbjLdvoNuxDwUeZhxI/d9CtyH6GbuKPw5l/5A=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-gnu/-/swc-linux-x64-gnu-12.0.10.tgz"
+  "version" "12.0.10"
+
+"@next/swc-linux-x64-musl@12.0.10":
+  "integrity" "sha512-g/scgn+21/MLfizOCZOZt+MxNj2/8Tdlwjvy+QZcSUPZRUI2Y5o3HwBvI1f/bSci+NGRU+bUAO0NFtRJ9MzH5w=="
+  "resolved" "https://registry.npmjs.org/@next/swc-linux-x64-musl/-/swc-linux-x64-musl-12.0.10.tgz"
   "version" "12.0.10"
 
 "@nodelib/fs.scandir@2.1.5":
@@ -2850,8 +2855,13 @@
   dependencies:
     "three" "0.77.0"
 
-"three@^0.135.0", "three@0.77.0":
-  "integrity" "sha1-iwsbAAR2ic6qAg1IClYspg2H/zc="
+"three@^0.135.0":
+  "integrity" "sha512-kuEpuuxRzLv0MDsXai9huCxOSQPZ4vje6y0gn80SRmQvgz6/+rI0NAvCRAw56zYaWKMGMfqKWsxF9Qa2Z9xymQ=="
+  "resolved" "https://registry.npmjs.org/three/-/three-0.135.0.tgz"
+  "version" "0.135.0"
+
+"three@0.77.0":
+  "integrity" "sha512-YWEp8ahs2l+6fAFVbanLVQoSBwVq5jDct3nZdBSHHXb5I/w5oy/LCMAzIOAguKWclRqcjR4W1BeP5QBnftGbpA=="
   "resolved" "https://registry.npmjs.org/three/-/three-0.77.0.tgz"
   "version" "0.77.0"
 

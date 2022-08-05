@@ -1,6 +1,6 @@
 import { Box, Container, Heading } from "@chakra-ui/layout"
 import { motion } from "framer-motion"
-import { Image,OrderedList,ListItem } from '@chakra-ui/react';
+import { Image,OrderedList,ListItem,useColorModeValue } from '@chakra-ui/react';
 
 
 
@@ -32,8 +32,8 @@ return(
 
 
                         <MotionBox
-                        whileHover={{scale:1.4}}
-                        transition={{duration:.7}}
+                        whileHover={{scale:1.2}}
+                        transition={{duration:.1}}
                         >
                         <Box mb={20}>
 
@@ -47,7 +47,7 @@ return(
                             <Box as="h2">
                         The main objectives were :
                             </Box>
-                        <Box mt={4} backgroundColor="yellow.600" pl={2} pr={2}>
+                        <Box mt={4} backgroundColor={useColorModeValue('yellow.200', 'blue.900')} pl={2} pr={2}>
                             <br></br>
                             <OrderedList listStyleType="square" spacing={3} >
                                 <ListItem>Develop a Character Controller</ListItem>
@@ -70,8 +70,8 @@ return(
 
 
                         <MotionBox
-                        whileHover={{scale:1.4}}
-                        transition={{duration:.7}}
+                        whileHover={{scale:1.2}}
+                        transition={{duration:.1}}
                         >
                         <Box mb={20}>
                             <Image src="/images/HorrorGame/Lightray.png"></Image>
@@ -85,8 +85,8 @@ return(
 
 
                         <MotionBox
-                        whileHover={{scale:1.4}}
-                        transition={{duration:.7}}
+                        whileHover={{scale:1.2}}
+                        transition={{duration:.1}}
                         >
                         <Box mb={20}>
 
@@ -105,8 +105,8 @@ return(
 
 
                         <MotionBox
-                        whileHover={{scale:1.4}}
-                        transition={{duration:.7}}
+                        whileHover={{scale:1.2}}
+                        transition={{duration:.1}}
                         >
                         <Box mb={20}>
                             <Image src="/images/HorrorGame/monster.gif"></Image>

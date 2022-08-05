@@ -7,7 +7,7 @@ return (
         
         <Container maxW="container.md">
             
-        <Box align="center" mb={12}>
+        <Box align="center" mb={12} mt={8}>
                 <Heading as="h2">
                     Wijnand Merkens
 
@@ -15,7 +15,7 @@ return (
             </Box>
 
 
-        <Box borderRadius="lg" bg={useColorModeValue('orange.300', "rgba(237,137,54,.25)")} p={1} align="center" mb={10}>
+        <Box borderRadius="lg" bg={useColorModeValue('orange.100', 'orange.900')} p={5} align="center" mb={10}>
 
                         GameDev graduate focused on learning Programming, 3D, Art and Web-Development
 
@@ -45,7 +45,7 @@ return (
 
         <Box>
             <Box align="center" mb={10}>
-                <Heading as="h3" size="md" variant="section-title">
+                <Heading as="h3" size="md" textDecoration={"underline"}>
                 Works
                 </Heading>
             </Box>

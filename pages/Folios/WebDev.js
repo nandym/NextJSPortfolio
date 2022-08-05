@@ -92,8 +92,8 @@ return(
 
         <Box mb={20}>
         <MotionBox
-        whileHover={{scale:1.4}}
-        transition={{duration:.7}}
+        whileHover={{scale:1.2}}
+        transition={{duration:.1}}
         >
 
         <Image src="/images/Website.jpg"></Image>
@@ -109,8 +109,8 @@ return(
         </Box>
         <Box mb={20}>
         <MotionBox
-        whileHover={{scale:1.4}}
-        transition={{duration:.7}}
+        whileHover={{scale:1.2}}
+        transition={{duration:.1}}
         >
 
             <Image src="/images/AngularInterface.png"></Image>
@@ -118,8 +118,8 @@ return(
         </Box>
         <Box mb={20}>
         <MotionBox
-        whileHover={{scale:1.4}}
-        transition={{duration:.7}}
+        whileHover={{scale:1.2}}
+        transition={{duration:.1}}
         >
 
             <Image src="/images/WorkBoxesHtml.png"></Image>

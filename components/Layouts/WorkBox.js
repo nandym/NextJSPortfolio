@@ -18,11 +18,11 @@ const WorkBox = ({imgSrc,name}) =>{
             
             
                 <NextLink href={`/Folios/${name}`}>
-            <Box bg={useColorModeValue('red.200', 'red.600')} rounded="lg" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
+            <Box bg={useColorModeValue('red.200', 'red.600')} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
             
            
        
-            <Image w="400px" h="234px" src={imgSrc} p={1} position="relative"></Image>
+            <Image w="400px" h="234px" src={imgSrc} p={0.5} position="relative"></Image>
 
             
 
@@ -32,10 +32,10 @@ const WorkBox = ({imgSrc,name}) =>{
                 </b> 
             </Box>
             <MotionBox
-            whileHover={{opacity:.2}}
+            whileHover={{opacity:0}}
             >
 
-            <Box opacity="0.4" background="black" position="absolute" w="100%" h="100%" rounded="lg" top="0" left="0"></Box>
+            <Box opacity="0.25" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
             </MotionBox>
             {/* top="42.5%" left="42.5%" */}
 
