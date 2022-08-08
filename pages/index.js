@@ -15,7 +15,7 @@ return (
             </Box>
 
 
-        <Box borderRadius="lg" bg={useColorModeValue('orange.100', 'orange.900')} p={5} align="center" mb={10}>
+        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.100', 'orange.900')} p={5} align="center" mb={10}>
 
                         GameDev graduate focused on learning Programming, 3D, Art and Web-Development
 
@@ -45,7 +45,7 @@ return (
 
         <Box>
             <Box align="center" mb={10}>
-                <Heading as="h3" size="md" textDecoration={"underline"}>
+                <Heading as="h3" size="md" textDecoration={"underline"} textUnderlineOffset="5px">
                 Works
                 </Heading>
             </Box>

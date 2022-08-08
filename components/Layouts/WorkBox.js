@@ -22,20 +22,20 @@ const WorkBox = ({imgSrc,name}) =>{
             
            
        
-            <Image w="400px" h="234px" src={imgSrc} p={0.5} position="relative"></Image>
+            <Image alt="" w="400px" h="234px" src={imgSrc} p={0.5} rounded="5px" position="relative"></Image>
 
             
 
+            <MotionBox
+            whileHover={{opacity:0}}
+            >
+            <Box opacity="0.35" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
             <Box align="center" verticalAlign="middle" pb={1} position="absolute" top="42%" bottom="0" left="0" right="0" m="auto" color="white">
                 <b>
             {name} 
                 </b> 
             </Box>
-            <MotionBox
-            whileHover={{opacity:0}}
-            >
 
-            <Box opacity="0.25" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
             </MotionBox>
             {/* top="42.5%" left="42.5%" */}
 
