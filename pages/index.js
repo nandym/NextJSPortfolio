@@ -14,10 +14,10 @@ return (
                 </Heading>
             </Box>
 
+        {/* FIXME: Change Color of Light mode Border */}
+        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.400', 'orange.200')} p={5} align="center" mb={10}>
 
-        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.100', 'orange.900')} p={5} align="center" mb={10}>
-
-                        GameDev graduate focused on learning Programming, 3D, Art and Web-Development
+                        GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
 
         </Box>
 
@@ -25,7 +25,7 @@ return (
 
 
 
-        <Box align="center" mb={12}>
+        <Box align="center" mb={12} boxShadow={"dark-lg"} p={5}>
           <Image
             borderColor="blackAlpha.700"
             borderWidth={2}
@@ -35,7 +35,6 @@ return (
             borderRadius="full"
             src="/images/PhotoZ.jpg"
             alt="Profile image"
-            
           />
         </Box>
 
@@ -53,8 +52,9 @@ return (
 
 
       
+            <Box>
 
-                <SimpleGrid  columns={{ sm: 1, md: 2 }} spacing={6}>
+                <SimpleGrid  columns={{ sm: 1, md: 2 }} spacing={6} boxShadow={"dark-lg"} p={5} rounded={"lg"}>
                  
                 <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
              
@@ -67,6 +67,7 @@ return (
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
 
                 </SimpleGrid>
+            </Box>
         </Box>
 
 

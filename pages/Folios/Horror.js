@@ -10,7 +10,7 @@ const Horror = () =>{
 return(
 
 
-<Container maxW="container.md">
+<Container maxW="container.md" boxShadow={"dark-lg"} pt={5} pb={5}>
     <MotionBox
     initial={{ y: -20, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}

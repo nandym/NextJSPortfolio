@@ -46,7 +46,6 @@ const components = {
 
 const fonts = {
   heading: "'M PLUS Rounded 1c'",
-  body: "Source Code Pro",
 }
 
 
@@ -55,7 +54,8 @@ const fonts = {
 
 const config = {
   initialColorMode: "dark",
-  useSystemColorMode: false,
+  useSystemColorMode: true,
+
 }
 
 

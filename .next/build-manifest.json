@@ -20,10 +20,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Folios/Horror": [
+    "/Folios/UnityRPG": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Folios/Horror.js"
+      "static/chunks/pages/Folios/UnityRPG.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
