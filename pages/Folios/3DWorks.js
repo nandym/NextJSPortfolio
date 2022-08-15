@@ -68,7 +68,7 @@ return(
             >
             </Image>
             <Box>
-                A Portuguese caricature made for a client with the propose of 3D printing
+                A Portuguese caricature made for a client with the purpose of 3D printing
             </Box>
             <Box textAlign={'right'} fontSize={'xs'} mb={12}>
                 Software : ZBrush
