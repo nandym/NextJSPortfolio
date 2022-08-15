@@ -8,7 +8,7 @@ const styles = {
   global: props => ({
 
     body: {
-      bg: mode('yellow.50','gray.900')(props)
+      bg: mode('white','gray.900')(props)
     }
 
 

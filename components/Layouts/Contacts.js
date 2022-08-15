@@ -20,12 +20,11 @@ const Contacts = () =>{
             </Image>
             </Link>
 
-            <Link href="https://www.linkedin.com/in/wijm/" isExternal>
+            <Link href="https://www.linkedin.com/in/wijm/" ml={3} isExternal>
             <Image
             alt="Linkedin"
             w={4}
             src={"/images/LinkedIn.png"}
-            ml={3}
             >
             </Image>
             </Link>

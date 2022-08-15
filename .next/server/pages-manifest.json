@@ -2,6 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/Folios/WebDev": "pages/Folios/WebDev.js",
-  "/Folios/UnityRPG": "pages/Folios/UnityRPG.js"
+  "/": "pages/index.js"
 }
