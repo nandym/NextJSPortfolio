@@ -14,7 +14,6 @@ return (
                 </Heading>
             </Box>
 
-        {/* FIXME: Change Color of Light mode Border */}
         <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.400', 'orange.200')} p={5} align="center" mb={10}>
 
                         GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
@@ -49,14 +48,14 @@ return (
                 </Heading>
             </Box>
 
-
+           
 
       
-            <Box>
+            <Box position={"absolute"} left="50%" transform={"translateX(-50%)"} maxWidth="100%">
 
-                <SimpleGrid  columns={{ sm: 1, md: 2 }} spacing={6} boxShadow={"dark-lg"} p={5} rounded={"lg"}>
+                <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={6} boxShadow={"dark-lg"} p={5} rounded={"lg"}>
                  
-                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
+                <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
              
                 {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
             
@@ -66,10 +65,16 @@ return (
                 
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
 
+                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
+                
+                <WorkBox imgSrc="/images/UnrealGame.png" name="UnrealGame"></WorkBox>
+
+                <WorkBox imgSrc="/images/UnrealGame.png" name="HeadBang"></WorkBox>
+
                 </SimpleGrid>
             </Box>
         </Box>
-
+        <Box mb={1200}></Box>
 
 
         </Container>

@@ -7,22 +7,26 @@ const Timeline = () => {
     const items = [
 {
 title:"circa 2008",
-cardSubtitle:"Messed around with google blogs"
+cardSubtitle:"Google Blogs"
 
 },
 {
 title:"2012",
-cardSubtitle:"Finally learned about html"
+cardSubtitle:"HTML"
 
 },
 {
+title:"2014",
+cardSubtitle:"Php Games"
+},
+{
 title:"2015",
-cardSubtitle:"Learned web-development in HighSchool"
+cardSubtitle:"HighSchool WebDev Classes"
 
 },
 {
 title:"2018",
-cardSubtitle:"Developed a javascript custom website for a final year project"    
+cardSubtitle:"Used JS for a custom Website"    
 },
 {
 title:"2021",
@@ -77,7 +81,7 @@ return(
             </Heading>
         </Box>
 
-        <Box textAlign="center" backgroundColor="red.400" mb={20}>
+        <Box textAlign="center" backgroundColor="red.400" opacity={0.8} mb={20}>
             A look into how I have improved my Web-development skills over the years, on and off.
         </Box>
 
@@ -85,45 +89,29 @@ return(
         <Timeline></Timeline>
         </Box>
         <Box mb={12}>
-            I've done Web-Dev since I was about 8, mostly because I was curious, but only really got into in during my Highschool years, where I learned Javascript, PhP and SQL.
+            Google Blogs was responsible for piquing my interest in web development but only really got into in during my highschool years, where I learned Javascript, PhP and SQL.
             <br></br>
-            It wasn't until my University years that I learned about Javascript frameworks... Could've made great use of them for my highschool last year project (The project was a Game in UE4) website, as I had to code animations with JS and mess way too much with old good raw CSS.
+            <br></br>
+            During University I learned about Javascript frameworks.
         </Box>
 
         <Box mb={20}>
-        <MotionBox
-        whileHover={{scale:1.2}}
-        transition={{duration:.1}}
-        >
+      
 
         <Image src="/images/Website.jpg"></Image>
-        </MotionBox>
+        
 
         </Box>
-
         <Box mb={20}>
-        2021 I began making a website and decided to learn Angular, but then Next.js kidnapped me and I've switched to making the Portfolio using it instead.
-        <br></br>
-        <br></br>
-        I brought the boxes with my works to this website, and have images of the code used. Also Angular was better for handling data.
-        </Box>
-        <Box mb={20}>
-        <MotionBox
-        whileHover={{scale:1.2}}
-        transition={{duration:.1}}
-        >
+        
 
             <Image src="/images/AngularInterface.png"></Image>
-            </MotionBox>
+          
         </Box>
         <Box mb={20}>
-        <MotionBox
-        whileHover={{scale:1.2}}
-        transition={{duration:.1}}
-        >
-
+     
             <Image src="/images/WorkBoxesHtml.png"></Image>
-            </MotionBox>
+           
         </Box>
         <Box mb={20} align="center">
             <a href=".."><u> An example of my current skill level ;)</u></a>

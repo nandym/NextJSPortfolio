@@ -31,21 +31,17 @@ return(
                         </Box>
 
 
-                        <MotionBox
-                        whileHover={{scale:1.2}}
-                        transition={{duration:.1}}
-                        >
+                     
                         <Box mb={20}>
 
                         <Image src="/images/HorrorGame/Menu.gif" alt="Game Menu"></Image>
 
                         </Box>
-                        </MotionBox>
-
+                
 
                         <Box mb={20}>
                             <Box as="h2">
-                        The main objectives were :
+                        Main Objectives :
                             </Box>
                         <Box mt={4} backgroundColor={useColorModeValue('yellow.200', 'blue.900')} pl={2} pr={2}>
                             <br></br>
@@ -69,14 +65,11 @@ return(
 
 
 
-                        <MotionBox
-                        whileHover={{scale:1.2}}
-                        transition={{duration:.1}}
-                        >
+                    
                         <Box mb={20}>
                             <Image src="/images/HorrorGame/Lightray.png"></Image>
                         </Box>
-                        </MotionBox>
+    
 
 
                         <Box align="center" mb={20}>
@@ -84,16 +77,13 @@ return(
                         </Box>
 
 
-                        <MotionBox
-                        whileHover={{scale:1.2}}
-                        transition={{duration:.1}}
-                        >
+                   
                         <Box mb={20}>
 
                         <Image src="/images/HorrorGame/inside2.png"></Image>
 
                         </Box>
-                        </MotionBox>
+              
 
 
 
@@ -104,14 +94,9 @@ return(
                         </Box>
 
 
-                        <MotionBox
-                        whileHover={{scale:1.2}}
-                        transition={{duration:.1}}
-                        >
                         <Box mb={20}>
                             <Image src="/images/HorrorGame/monster.gif"></Image>
                         </Box>
-                        </MotionBox>
 
 
                         <Box pb={50} align="center">

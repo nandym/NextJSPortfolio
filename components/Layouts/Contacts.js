@@ -5,8 +5,8 @@ import NextLink from 'next/link'
 const Contacts = () =>{
     return(
        <Container justifyContent={"center"} alignItems={"center"} mt="100">
-        <Box textAlign={"center"} >
-            Contact me at
+        <Box textAlign={"center"} textDecoration={"underline"} >
+            Contacts
             
         </Box>
         

@@ -1,6 +1,6 @@
 import { Box, Container, Heading } from "@chakra-ui/layout"
 import { motion } from "framer-motion"
-import { Image,OrderedList,ListItem } from '@chakra-ui/react';
+import { Image,OrderedList,ListItem,useColorModeValue } from '@chakra-ui/react';
 
 
 
@@ -29,17 +29,30 @@ return(
         A 4 player game developed for the Final Major Project of my Indie Game Development Bachelors Course.
         </Box>
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+        <Box mb={20}>
+                            <Box as="h2">
+                        Main Objectives :
+                            </Box>
+                        <Box mt={4} backgroundColor={useColorModeValue('yellow.200', 'blue.900')} pl={2} pr={2}>
+                            <br></br>
+                            <OrderedList listStyleType="square" spacing={3} >
+                                <ListItem>Unity Multiplayer Solution Research</ListItem>
+                                <ListItem>RPG game development</ListItem>
+                                <ListItem>Steam Integration</ListItem>
+                                <ListItem>Development of AI</ListItem>
+                            </OrderedList>
+                            <br></br>
+                        </Box>
+        </Box>
+  
         <Box mb={12}>
             <Image src="/images/FMPF.png" alt="First Successful multiplayer test"></Image>
         </Box>
-        </MotionBox>
 
         <Box mb={12}>
-            The image above shows the first happy moment of this development, where after a few days of bug and problem solving I managed to have 4 players fully synced and interacting.
+            Image of the first time I managed to have 4 players.
         </Box>
+
 
         {/* <MotionBox
         whileHover={{scale:1.4}}transition={{duration:.7}}
@@ -52,52 +65,56 @@ return(
             The first time me and a friend tested Steam Integration!
         </Box> */}
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+       
         <Box mb={12}>
             <Image src="/images/UnityGame/TalentTree.jpg" alt="Talent Tree"></Image>
         </Box>
-        </MotionBox>
+      
         <Box mb={12}>
             A basic talent tree inspired in WoW (World of Warcraft) where you start from the top and build downwards like tree roots, these grant skills and upgrades them.
         </Box>
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+   
         <Box mb={12}>
             <Image src="/images/UnityGame/Skills.jpg" alt="Skills"></Image>
         </Box>
-        </MotionBox>
+ 
 
 
         <Box mb={12}>
             Skills, they are draggable to the skills bar bellow!
         </Box>
+        
+        <Box mb={12}>
+            <Image src="/images/UnityGame/AI.png" alt="AI" ></Image>
+        </Box>
+        <Box mb={12}>
+            Modular AI script, being able to change the AI and its parameters on the fly.
+        </Box>
 
+        <Box mb={12}>
+            <Image src="/images/UnityGame/Range.png" alt="Range"></Image>
+        </Box>
+        <Box mb={12}>
+            The red line is the monster range. Its only visible on the editor for quick editing.
+        </Box>
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+  
         <Box mb={12}>
             <Image src="/images/UnityGame/Shop.jpg" alt="Shop"></Image>
         </Box>
-        </MotionBox>
-
+    
 
         <Box mb={12}>
             A shop, you are able to carry 6 items, some even usable restoring health/mana by regen or instantly, all synced.
         </Box>
 
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+
         <Box mb={12}>
             <Image src="/images/UnityGame/Boss.jpg" alt="Boss"></Image>
         </Box>
-        </MotionBox>
+
 
 
         <Box mb={12}>
@@ -105,25 +122,21 @@ return(
         </Box>
 
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+ 
         <Box mb={12}>
             <Image src="/images/UnityGame/BossDecisionTree.png" alt="Boss"></Image>
         </Box>
-        </MotionBox>
+
 
         <Box mb={12}>
             The Decision tree of the boss seen above.
         </Box>
 
-        <MotionBox
-        whileHover={{scale:1.2}}transition={{duration:.1}}
-        >
+
         <Box mb={12}>
             <Image src="/images/UnityGame/Environment.jpg" alt="Environment"></Image>
         </Box>
-        </MotionBox>
+ 
 
         <Box mb={20}>
             Leaving a small comment.

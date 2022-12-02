@@ -1,4 +1,4 @@
 
-TODO: Fix Light mode
 TODO: Complete 3DWorks
-TODO: Add Binger Ninja
+TODO: Add Binger Ninja AND HEADBANG rythm game
+TODO: Main Objectives like the "Horror" page Main Objectives on the UnityRPG page

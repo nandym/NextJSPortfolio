@@ -1,6 +1,7 @@
 import {Box, Image,useColorModeValue} from "@chakra-ui/react"
 import { motion } from "framer-motion"
 import NextLink from 'next/link'
+import { AspectRatio } from '@chakra-ui/react'
 
 const MotionBox = motion(Box)
 
@@ -18,12 +19,13 @@ const WorkBox = ({imgSrc,name}) =>{
             
             
                 <NextLink href={`/Folios/${name}`}>
-            <Box bg={useColorModeValue('red.600', 'red.200')} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
+            <Box bg={useColorModeValue('red.600', 'red.200')} minWidth="150px" rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
             
            
-       
-            <Image alt="" w="400px" h="234px" src={imgSrc} p={0.5} rounded="5px" position="relative"></Image>
 
+            <Image alt="" width={"400px"} Height={"223px"}  src={imgSrc} p={0.5} rounded="5px" position="relative"></Image>
+
+           
             
 
             <MotionBox
@@ -32,7 +34,7 @@ const WorkBox = ({imgSrc,name}) =>{
             <Box opacity="0.35" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
             <Box align="center" verticalAlign="middle" pb={1} position="absolute" top="42%" bottom="0" left="0" right="0" m="auto" color="white">
                 <b>
-            {name} 
+            {/* {name}  */}
                 </b> 
             </Box>
 
