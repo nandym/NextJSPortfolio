@@ -11,7 +11,7 @@ const WorkBox = ({imgSrc,name}) =>{
       
         <MotionBox
                 whileHover={{scale:1.12}}
-                initial={{ y: -20, opacity: 0 }}
+                initial={{ y: -30, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{duration:0.3}}
                 whileTap={{scale:0.95}}
@@ -19,7 +19,7 @@ const WorkBox = ({imgSrc,name}) =>{
             
             
                 <NextLink href={`/Folios/${name}`}>
-            <Box bg={useColorModeValue('red.600', 'red.200')} minWidth="150px" rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
+            <Box bg={useColorModeValue('grey.800', 'grey.800')} minWidth="150px" rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
             
            
 

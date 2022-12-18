@@ -2,6 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/Folios/Horror": "pages/Folios/Horror.js",
   "/Folios/3DWorks": "pages/Folios/3DWorks.js",
-  "/Folios/Horror": "pages/Folios/Horror.js"
+  "/Folios/UnrealGame": "pages/Folios/UnrealGame.js",
+  "/Folios/WebDev": "pages/Folios/WebDev.js",
+  "/": "pages/index.js",
+  "/Folios/BingerNinja": "pages/Folios/BingerNinja.js",
+  "/Folios/UnityRPG": "pages/Folios/UnityRPG.js"
 }
