@@ -7,26 +7,16 @@ return (
         
         <Container maxW="container.md">
             
-        <Box align="center" mb={12} mt={8}>
+        <Box align="center" mb={12} mt={1}>
                 <Heading as="h2">
                     Wijnand Merkens
 
                 </Heading>
             </Box>
 
-        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.400', 'orange.200')} p={5} align="center" mb={10}>
-
-                        GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
-
-        </Box>
-
-
-
-
-
         <Box align="center" mb={12} boxShadow={"dark-lg"} p={5}>
           <Image
-            borderColor="blackAlpha.700"
+            borderColor={useColorModeValue('orange.200', 'orange.500')}
             borderWidth={2}
             borderStyle="solid"
             maxWidth="154px"
@@ -36,6 +26,16 @@ return (
             alt="Profile image"
           />
         </Box>
+        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.200', 'orange.500')} p={5} align="center" mb={10}>
+
+                        GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
+
+        </Box>
+
+
+
+
+
 
 
 
@@ -53,8 +53,9 @@ return (
       
             <Box position={"absolute"} left="50%" transform={"translateX(-50%)"} maxWidth="100%">
 
-                <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={6} boxShadow={"dark-lg"} p={5} rounded={"lg"}>
+                <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={10}  p={1} rounded={"lg"}>
                  
+                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
                 <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
              
                 {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
@@ -65,7 +66,6 @@ return (
                 
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
 
-                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
                 
                 <WorkBox imgSrc="/images/UnrealGame.png" name="UnrealGame"></WorkBox>
 
