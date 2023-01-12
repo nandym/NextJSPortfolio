@@ -55,21 +55,21 @@ return (
 
                 <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={10}  p={1} rounded={"lg"}>
                  
-                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
                 <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
              
                 {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
             
                 <WorkBox imgSrc="/images/UnityMP.png" name="UnityRPG"></WorkBox>
                
+                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
                 <WorkBox imgSrc="/images/HorrorGame.png" name="Horror"></WorkBox>
                 
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
 
-                
-                <WorkBox imgSrc="/images/UnrealGame.png" name="UnrealGame"></WorkBox>
-
-                <WorkBox imgSrc="/images/UnrealGame.png" name="HeadBang"></WorkBox>
+{/*                 
+                <WorkBox imgSrc="/images/UnrealGame.png" name="UnrealGame"></WorkBox> */}
+{/* 
+                <WorkBox imgSrc="/images/UnrealGame.png" name="HeadBang"></WorkBox> */}
 
                 </SimpleGrid>
             </Box>

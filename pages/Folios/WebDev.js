@@ -82,17 +82,20 @@ return(
         </Box>
 
         <Box textAlign="center" backgroundColor="red.400" opacity={0.8} mb={20}>
-            A look into how I have improved my Web-development skills over the years, on and off.
+            Resume on my web development journey.
         </Box>
 
         <Box mb={20} align="center">
         <Timeline></Timeline>
         </Box>
         <Box mb={12}>
-            Google Blogs was responsible for piquing my interest in web development but only really got into in during my highschool years, where I learned Javascript, PhP and SQL.
-            <br></br>
-            <br></br>
-            During University I learned about Javascript frameworks.
+            Google Blogs was responsible for piquing my interest in web development but only really got into it during my highschool years, where I learned Javascript and SQL.
+                    <br></br>
+                    <br></br>
+                    To explain, the Php games were made using webSockets and ranged from tic tac toe to an Orc sprite mining gold for score.
+                    <br></br>
+                    <br></br>
+            During University I learned about Javascript frameworks, and this is where we are
         </Box>
 
         <Box mb={20}>

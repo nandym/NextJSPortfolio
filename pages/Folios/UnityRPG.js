@@ -25,7 +25,7 @@ return(
 
 
 
-        <Box textAlign="center" backgroundColor="red.400" mb={20}>
+        <Box textAlign="center" backgroundColor={useColorModeValue('gray.200', 'gray.400')} mb={20}>
         A 4 player game developed for the Final Major Project of my Indie Game Development Bachelors Course.
         </Box>
 
@@ -33,7 +33,7 @@ return(
                             <Box as="h2">
                         Main Objectives :
                             </Box>
-                        <Box mt={4} backgroundColor={useColorModeValue('yellow.200', 'blue.900')} pl={2} pr={2}>
+                        <Box mt={4} backgroundColor={useColorModeValue('gray.200', 'gray.600')} pl={2} pr={2}>
                             <br></br>
                             <OrderedList listStyleType="square" spacing={3} >
                                 <ListItem>Unity Multiplayer Solution Research</ListItem>

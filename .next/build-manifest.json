@@ -15,20 +15,15 @@
     "static/development/_middlewareManifest.js"
   ],
   "pages": {
-    "/": [
+    "/Folios/3DWorks": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/Folios/3DWorks.js"
     ],
-    "/Folios/UnityRPG": [
+    "/Folios/Horror": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Folios/UnityRPG.js"
-    ],
-    "/Folios/WebDev": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/WebDev.js"
+      "static/chunks/pages/Folios/Horror.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
