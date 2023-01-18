@@ -3,7 +3,6 @@ import { motion } from "framer-motion"
 import { Image,OrderedList,ListItem,useColorModeValue } from '@chakra-ui/react';
 
 
-
 const MotionBox = motion(Box)
 const Unity = () =>{
 
@@ -149,7 +148,8 @@ return(
 
             </Box>
             <Box mb={20} textColor={'blue'}>
-            <a href="/public/documents/Merkens_Wijnand_FMP_Project_Report_AE2.pdf" target={'_self'} download='Report'>Project Report if you are curious</a>
+            <a href="../../public/documents/Report.pdf" target={'_blank'}  download>Project Report if you are curious</a>
+            
             </Box>
     </MotionBox>
 </Container>
