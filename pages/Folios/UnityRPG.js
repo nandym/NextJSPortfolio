@@ -148,7 +148,7 @@ return(
 
             </Box>
             <Box mb={20} textColor={'blue'}>
-            <a href="../../public/documents/Report.pdf" target={'_blank'}  download>Project Report if you are curious</a>
+            <a href="/images/UnityGame/Report.pdf" target={'_blank'}  download>Project Report if you are curious</a>
             
             </Box>
     </MotionBox>
