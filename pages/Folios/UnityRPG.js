@@ -138,7 +138,7 @@ return(
         </Box>
  
 
-        <Box mb={20}>
+        <Box mb={12}>
             Leaving a small comment.
             <br></br>
              During this project I learned a ton about multiplayer development, wasn't my first time, but there were great difficulties.
@@ -147,7 +147,10 @@ return(
             If I was to make a new multiplayer game I'd have gone differently with the logic and made more/better use of RPCs, would also calculate the data structures needed for my game, the MMO challenge... 
         </Box>
 
-    </Box>
+            </Box>
+            <Box mb={20} textColor={'blue'}>
+            <a href="/public/documents/Merkens_Wijnand_FMP_Project_Report_AE2.pdf" target={'_self'} download='Report'>Project Report if you are curious</a>
+            </Box>
     </MotionBox>
 </Container>
 

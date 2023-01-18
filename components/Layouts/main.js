@@ -11,6 +11,7 @@ const Main= ({children, router}) => {
             <ThemeToggle/>
             </Box>
             <Head>
+                <link rel = "icon" href ="/public/images/Logo_inv.png" type = "image/x-icon"></link>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                 <title>Wijnand Merkens</title>
             </Head>
