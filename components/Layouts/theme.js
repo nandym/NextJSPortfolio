@@ -8,7 +8,7 @@ const styles = {
   global: props => ({
 
     body: {
-      bg: mode('yellow.50','gray.900')(props)
+      bg: mode('#eff1f5','#1e1e2e')(props)
     }
 
 
@@ -45,7 +45,7 @@ const components = {
 
 
 const fonts = {
-  heading: " 'Ubuntu Mono', monospace",
+  heading: "Source Sans Pro",
 }
 
 

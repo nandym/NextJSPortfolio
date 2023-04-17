@@ -14,9 +14,9 @@ return (
                 </Heading>
             </Box>
 
-        <Box align="center" mb={12} boxShadow={"dark-lg"} p={5}>
+        <Box align="center" mb={12} boxShadow={"lg"} p={10} backgroundColor={useColorModeValue('#e6e9ef','#181825')}>
           <Image
-            borderColor={useColorModeValue('orange.200', 'orange.500')}
+            borderColor={useColorModeValue('#fe640b', '#fab387')}
             borderWidth={2}
             borderStyle="solid"
             maxWidth="154px"
@@ -26,7 +26,7 @@ return (
             alt="Profile image"
           />
         </Box>
-        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('orange.200', 'orange.500')} p={5} align="center" mb={10}>
+        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('#fe640b', '#fab387')} p={5} align="center" mb={10}>
 
                         GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
 
@@ -44,7 +44,7 @@ return (
         <Box>
             <Box align="center" mb={10}>
                 <Heading as="h3" size="md" textDecoration={"underline"} textUnderlineOffset="5px">
-                Works
+                Projects
                 </Heading>
             </Box>
 

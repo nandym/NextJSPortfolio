@@ -20,26 +20,26 @@ const WorkBox = ({imgSrc,name}) =>{
             
             
                 <NextLink href={`/Folios/${name}`}>
-            <Box bg={useColorModeValue('orange.200', 'orange.500')} minWidth="150px" height={"106%"} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
+            <Box bg={useColorModeValue('#fe640b', '#fab387')} minWidth="150px" height={"100%"} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
             
            
 
-            <Image alt="" width={"400px"} Height={"273px"}  src={imgSrc} p={0.5} rounded="5px" position="relative"></Image>
+            <Image alt="" width={"400px"} Height={"293px"}  src={imgSrc} p={"1px"} rounded="5px" position="relative"></Image>
 
            
             
 
+            <Box opacity="0" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
             <MotionBox
             
-            whileHover={{opacity:0}}
+            whileHover={{opacity:1}}
             >
-            <Box opacity="0.2" background="black" position="absolute" w="100%" h="100%" rounded="5px" top="0" left="0"></Box>
-            </MotionBox>
-            <Box align="center" verticalAlign="middle" pb={1} position="absolute" top="42%" bottom="0" left="0" right="0" m="auto" color="white" pointerEvents={"none"}>
+            <Box align="center" opacity="1" textShadow={"1px 2px black"} verticalAlign="middle" pb={1} position="absolute" top="42%" bottom="0" left="0" right="0" m="auto" color="white" pointerEvents={"none"}>
                 <b>
             {name} 
                 </b> 
             </Box>
+                </MotionBox>
 
             {/* top="42.5%" left="42.5%" */}
 
