@@ -9,7 +9,7 @@ const BingerNinja = () =>{
 return(
 
 
-<Container maxW="container.md" boxShadow={"dark-lg"} pt={5} pb={5}>
+<Container maxW="container.lg" boxShadow={"dark-lg"} pt={5} pb={5}>
 <MotionBox
     initial={{ y: -100, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}

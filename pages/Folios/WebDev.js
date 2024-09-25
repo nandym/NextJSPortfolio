@@ -73,7 +73,7 @@ const WebDev = () =>{
 return(
 
 
-<Container maxW="container.md" boxShadow={"dark-lg"} pt={5} pb={5}>
+<Container maxW="container.lg" boxShadow={"dark-lg"} pt={5} pb={5}>
 <MotionBox
     initial={{ y: -100, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
@@ -88,7 +88,7 @@ return(
         </Box>
 
         <Box textAlign="center" backgroundColor="red.400" opacity={0.8} mb={20}>
-            Resume on my web development journey.
+            Web development journey.
         </Box>
 
         <Box mb={20} align="center">

@@ -5,16 +5,10 @@ import NextLink from 'next/link'
 const Page = () => {
 return (
         
-        <Container maxW="container.md">
+        <Container maxW="container.lg">
             
-        <Box align="center" mb={12} mt={1}>
-                <Heading as="h2">
-                    Wijnand Merkens
 
-                </Heading>
-            </Box>
-
-        <Box align="center" mb={12} boxShadow={"lg"} p={10} backgroundColor={useColorModeValue('#e6e9ef','#181825')}>
+        <Box alignSelf="center" m={12} p={10} display={"flex"} flexDirection={"row"}>
           <Image
             borderColor={useColorModeValue('#fe640b', '#fab387')}
             borderWidth={2}
@@ -25,64 +19,47 @@ return (
             src="/images/PhotoZ.jpg"
             alt="Profile image"
           />
+        <Box align="right" ml={32} textAlign={"center"} alignSelf={"center"} mb={12} mt={1}>
+                <Heading as="h2" fontSize={52} fontWeight={"extrabold"}>
+                    
+                    Wijnand Merkens
+
+                </Heading>
+            </Box>
         </Box>
-        <Box borderRadius="lg" border={"2px"} borderColor={useColorModeValue('#fe640b', '#fab387')} p={5} align="center" mb={10}>
+        <Box borderRadius="full" textAlign={"center"} rounded={"lg"} boxShadow={"lg"} border={"0px"} borderColor={useColorModeValue('#fe640b', '#fab387')} p={5} mb={20} >
 
                         GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
 
         </Box>
 
-
-
-
-
-
-
-
-
-
         <Box>
-            <Box align="center" mb={10}>
+            {/* <Box align="center" mb={10}>
                 <Heading as="h3" size="md" textDecoration={"underline"} textUnderlineOffset="5px">
                 Projects
                 </Heading>
-            </Box>
+            </Box> */}
 
-           
+            <Box position={"relative"}  maxWidth="100%">
 
-      
-            <Box position={"absolute"} left="50%" transform={"translateX(-50%)"} maxWidth="100%">
-
-                <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={10}  p={1} rounded={"lg"}>
-                 
-                <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
-             
-                {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
-            
+                <SimpleGrid  columns={{ sm:1, xl:2 }}  spacing={10}  p={1}>        
                 <WorkBox imgSrc="/images/UnityMP.png" name="UnityRPG"></WorkBox>
-               
-                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>
                 <WorkBox imgSrc="/images/HorrorGame.png" name="Horror"></WorkBox>
-                
+                <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>        
+                {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
-
+                <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
 {/*                 
                 <WorkBox imgSrc="/images/UnrealGame.png" name="UnrealGame"></WorkBox> */}
-{/* 
+{/*
                 <WorkBox imgSrc="/images/UnrealGame.png" name="HeadBang"></WorkBox> */}
-
                 </SimpleGrid>
             </Box>
         </Box>
-        <Box mb={1200}></Box>
-
 
         </Container>
     )
 }
-
-
-
 
 
 export default Page

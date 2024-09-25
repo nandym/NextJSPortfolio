@@ -21,7 +21,7 @@ const styles = {
 
 
 const components = {
-  Heading: {
+  Heading:  {
     variants: {
       'section-title': {
         textDecoration: 'underline',
@@ -45,7 +45,7 @@ const components = {
 
 
 const fonts = {
-  heading: "Source Sans Pro",
+  heading: "Consolas",
 }
 
 
