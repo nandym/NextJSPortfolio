@@ -11,16 +11,16 @@ const Contacts = () =>{
         </Box>
         
         <Box display={"flex"} justifyContent={"center"} pt={2} pb={2}>
-            <Link href='https://www.instagram.com/wijnandmk/'  userSelect={"none"} isExternal>
+            {/* <Link href='https://www.instagram.com/wijnandmk/'  userSelect={"none"} isExternal>
             <Image 
             alt="Instagram"
             w={4}
             src={"/images/Instagram.png"}
             >
             </Image>
-            </Link>
+            </Link> */}
 
-            <Link href="https://www.linkedin.com/in/wijm/" ml={3} isExternal>
+            <Link href="https://www.linkedin.com/in/wijm/" ml={0} isExternal>
             <Image
             alt="Linkedin"
             w={4}

@@ -1,4 +1,7 @@
 
-TODO: Complete 3DWorks
-TODO: Add Binger Ninja AND HEADBANG rythm game
+TODO: Complete 3DWorks - done
+TODO: Add Binger Ninja AND HEADBANG rythm game -halfway
 TODO: Main Objectives like the "Horror" page Main Objectives on the UnityRPG page
+
+TODO: Docker uni project
+TODO: Donkey website
