@@ -20,11 +20,11 @@ const WorkBox = ({imgSrc,name}) =>{
             
             
                 <NextLink href={`/Folios/${name}`}>
-            <Box  minWidth="150px" height={"100%"} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }}>
+            <Box  minWidth="150px" height={"auto"} border={"0px"} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }} flexDirection={"column"}>
             
-           
+                    <Box h={"30px"} w={"100%"} border={"1px"} textAlign={"center"} fontFamily={"monospace"} fontSize={18} bg={"black"}>{ name }</Box>
 
-            <Image alt="" width={"100%"} Height={"100%"}  src={imgSrc} p={"1px"} rounded="xl" position="relative"></Image>
+            <Image alt="" width={"100%"} Height={"100%"}  src={imgSrc} p={"1px"} roundedBottom={"xl"} position="relative"></Image>
 
            
             
@@ -34,11 +34,11 @@ const WorkBox = ({imgSrc,name}) =>{
             
             whileHover={{opacity:1}}
             >
-            <Box align="center" opacity="1" fontSize={40} textShadow={"1px 2px black"} verticalAlign="middle" pb={1} position="absolute" top="70%" bottom="0" left="0" right="0" m="auto" color="white" pointerEvents={"none"}>
+            {/* <Box align="center" opacity="1" fontSize={40} textShadow={"1px 2px black"} verticalAlign="middle" pb={1} position="absolute" top="70%" bottom="0" left="0" right="0" m="auto" color="white" pointerEvents={"none"}>
                 <b>
             {name} 
                 </b> 
-            </Box>
+            </Box> */}
                 </MotionBox>
 
             {/* top="42.5%" left="42.5%" */}

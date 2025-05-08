@@ -1,7 +1,6 @@
-import {Container , Box, Heading, useColorModeValue, Image, SimpleGrid, Flex} from "@chakra-ui/react" 
+import {Container , Box, Heading, useColorModeValue, Image, SimpleGrid, Flex,Text} from "@chakra-ui/react" 
 import WorkBox from './../components/Layouts/WorkBox';
 import NextLink from 'next/link'
-
 
 const Page = () => {
 return (
@@ -33,7 +32,7 @@ return (
                 </Heading>
             </Box>
 
-            <Box mixBlendMode={"luminosity"} p={5} fontSize={4} opacity={1} whiteSpace={"pre-line"} letterSpacing={0.6} fontFamily={"monospace"} overflow={"hidden"}>
+            <Text bgGradient={"linear(to-l,green.300,white)"} bgClip={"text"} mixBlendMode={"luminosity"} p={5} fontSize={"5"} opacity={1} whiteSpace={"pre-line"} letterSpacing={0.6} fontFamily={"monospace"} overflow={"hidden"}>
 ;;::::;:;;;;:cccdddoolloodxdxddddolodddxodkkxkxOklllldooxkkkkkxxddolollooloxxdoodoccoddddolooolllllc
 ccccc:::;;;ccccoooddollodkdxxxxkdlxxxoxkkxdxOkddkxxxoxxddxkkkkkxxdooddooxdddoooooollooodooddoooolllc
 cclllc:::;;colloddloooloxdxxxddxxoodxxoxkkxxxdxxxddkxxOOkkkOkkkOOkkxdxdddoodooxxkdooxxdoooodddolollc
@@ -85,9 +84,10 @@ c:::c:;,,;;;lc:ccccclcc::;::;;;;;;;;;;oddxxdddxxxxxxxkkkkkkOOOOOOOOOkOo;;:::::::
 ;;;;,,,,,;;;,,,,,,,;;;;;;;;;;;;;;;;;:oddddddxxxxxxxxxddodxxxxxxxxxdddd:;;;;;;;;;;;;;;,;;;;;,,,,;:;;;
 ,;;:,,,,;;;;,,,,,,,;;;;;;;;;;;;;;;;;:ddddddddxxxxxxxddodddxxdddddddddo;;;;;;;;;;;;;;;,,;;,,,,,,;;;;;
 
-            </Box>
+                    </Text>
+                    
             </Flex>
-        <Box  textAlign={"center"}  p={5} fontFamily={"monospace"} >
+        <Box  textAlign={"center"}  p={5} fontFamily={"monospace"} fontSize={16} >
 
                         GameDev graduate on the adventure of Programming, 3D, Art and Web-Development
 

@@ -45,7 +45,9 @@ const components = {
 
 
 const fonts = {
-  heading: "Consolas",
+  heading: "FiraCode Nerd Font",
+  body: "FiraCode Nerd Font",
+  Box: "FiraCode Nerd Font"
 }
 
 

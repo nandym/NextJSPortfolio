@@ -4,13 +4,13 @@ import NextLink from 'next/link'
 
 const Contacts = () =>{
     return(
-       <Container justifyContent={"center"} alignItems={"center"} mt="100">
-        <Box textAlign={"center"} fontFamily="'Inconsolata', monospace" >
+       <Container justifyContent={"center"} alignItems={"center"} mt="300">
+        <Box textAlign={"center"} fontFamily=" monospace" fontSize={15} bg={"black"} border={"1px"} >
             Contacts
             
         </Box>
         
-        <Box display={"flex"} justifyContent={"center"} pt={2} pb={2}>
+        <Box display={"flex"} justifyContent={"center"} pt={6} pb={2}>
             {/* <Link href='https://www.instagram.com/wijnandmk/'  userSelect={"none"} isExternal>
             <Image 
             alt="Instagram"
@@ -23,7 +23,7 @@ const Contacts = () =>{
             <Link href="https://www.linkedin.com/in/wijm/" ml={0} isExternal>
             <Image
             alt="Linkedin"
-            w={4}
+            w={6}
             src={"/images/LinkedIn.png"}
             >
             </Image>

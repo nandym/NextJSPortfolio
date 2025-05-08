@@ -147,7 +147,7 @@ return(
         </Box>
 
             </Box>
-            <Box mb={20} textColor={'blue'}>
+            <Box mb={20} textColor={'red.400'}>
             <a href="/images/UnityGame/Report.pdf" target={'_blank'}  download>Project Report if you are curious</a>
             
             </Box>
