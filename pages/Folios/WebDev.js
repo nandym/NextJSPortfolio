@@ -20,23 +20,23 @@ cardDetailedText:"In 2012 Minecraft happened, I had to somehow promote my local 
 {
 title:"2014",
 cardSubtitle: "Php Games",
-cardDetailedText:"I started using a website called 'heroku' to host Php games that I made with a friend I had made playing games"
+cardDetailedText:"I started using a website called 'heroku' to host Php games that I made with a friend"
 },
 {
 title:"2015",
 cardSubtitle: "HighSchool WebDev Classes",
-cardDetailedText:"During highschool we were taught what used to be called adobe muse, although I chose to not use it for my assignments and instead program in raw Html and CSS, then afterwards learned JavaScript and made a non intended computer benchmark website"
+cardDetailedText:"During highschool we were taught what used to be called adobe muse, although I chose to not use it for my assignments and instead type in raw Html and CSS, then afterwards learned JavaScript and made a non intended computer benchmark website"
 
 },
 {
 title:"2018",
 cardSubtitle: "Used JS for a custom Website",
-cardDetailedText:"The Benchmark website was developed for my final project as a means to show the project, a UE4 video game, it had fancy animations and required a gaming computer to run, it wasn't a traditional website"
+cardDetailedText:"The Benchmark website was developed for my final project, a UE4 video game, it had fancy animations and required a gaming computer to run"
 },
 {
 title:"2021",
 cardSubtitle:"Learned Angular,React and Next.js",
-cardDetailedText:"By self research and youtube recommendations I found myself trying multiple js frameworks"
+cardDetailedText:"By self research and youtube recommendations I found myself trying multiple js frameworks, this was during university"
 }
 ];
 
@@ -73,7 +73,7 @@ const WebDev = () =>{
 return(
 
 
-<Container maxW="container.lg" boxShadow={"dark-lg"} pt={5} pb={5}>
+<Container maxW="container.lg"  pt={5} pb={5}>
 <MotionBox
     initial={{ y: -100, opacity: 0 }}
     animate={{ y: 0, opacity: 1 }}
@@ -88,7 +88,7 @@ return(
         </Box>
 
         <Box textAlign="center" backgroundColor="red.400" opacity={0.8} mb={20}>
-            Web development journey.
+            Timeline
         </Box>
 
         <Box mb={20} align="center">
@@ -98,9 +98,12 @@ return(
             Google Blogs was responsible for piquing my interest in web development but only really got into it during my highschool years, where I learned Javascript and SQL.
                     <br></br>
                     <br></br>
-                    To explain, the Php games were made using webSockets and ranged from tic tac toe to an Orc sprite mining gold for score.
+                    My Php games were made using webSockets and ranged from tic tac toe to an Orc sprite mining gold for score, nothing too complex but it was a fun mix of my favorite things.
         </Box>
 
+                <Heading mb={12} size="md" textAlign={"center"}>
+                Little resume of my last experience with Angular    
+                </Heading>
         <Box mb={20}>
       
 
@@ -116,6 +119,8 @@ return(
                 </Box>
                 <Box mb={20}>
                     This was the first version of my portfolio website, using Angular, it was similar and taught me that I know nothing about design so I should use something like ChakraUI (Im better now, I think)
+
+                    
                 </Box>
         <Box mb={20}>
      
@@ -123,9 +128,15 @@ return(
            
         </Box>
                 <Box mb={20}>
-                    Angular was very impressive though, it provides great tools which make the code more compact,readable while also functional.
+                    Angular was very impressive, it provides great tools which make the code more compact, readable while also functional.
                     <br></br>
-                     Provides great extensions to ease development by being able to create components and setting them up automatically, but I have to say I do prefer react.
+                    Provides great extensions to ease development, the components were a treat to use.
+                    <br></br>
+                    My favourite feature that I found from my limited usage was NgFor which allows to dynamically render components! Very simple, readable and fast to setup, I'd love to come back to try Angular
+                    <br></br>
+                    <br></br>
+                    Currently for this website and more recent ones I use React, the main reason is that I had previous experience with using it and there were several Frameworks which attracted me.
+                    It is mostly about being comfortable, I do see myself liking Angular more if I had more experience with it.
         </Box>
         <Box mb={20} align="center">
             <a href=".."><u> An example of my current skill level ;)</u></a>

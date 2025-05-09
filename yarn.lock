@@ -914,6 +914,11 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
+"@fontsource-variable/jetbrains-mono@^5.2.5":
+  version "5.2.5"
+  resolved "https://registry.npmjs.org/@fontsource-variable/jetbrains-mono/-/jetbrains-mono-5.2.5.tgz"
+  integrity sha512-G3sN1xq1moZd0JL+hFaA4MEdsiQS+JXC/z7m+EqA5/Fzn5CQlXGUaaNKFGQdDsFuLTnCfW0KOOSWHjygNfjEPw==
+
 "@fontsource/m-plus-rounded-1c@^4.5.0":
   version "4.5.1"
   resolved "https://registry.npmjs.org/@fontsource/m-plus-rounded-1c/-/m-plus-rounded-1c-4.5.1.tgz"

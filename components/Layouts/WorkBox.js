@@ -22,9 +22,9 @@ const WorkBox = ({imgSrc,name}) =>{
                 <NextLink href={`/Folios/${name}`}>
             <Box  minWidth="150px" height={"auto"} border={"0px"} rounded="5px" boxShadow="md" cursor="pointer" position="relative"  display={{ md: 'flex' }} flexDirection={"column"}>
             
-                    <Box h={"30px"} w={"100%"} border={"1px"} textAlign={"center"} fontFamily={"monospace"} fontSize={18} bg={"black"}>{ name }</Box>
+                    <Box h={"32px"} w={"100%"} border={"0px"}  borderBottom={"2px"} borderColor={"#d66853"} color={"#d66853"} textAlign={"center"}  fontSize={18} bg={"black"} letterSpacing={"wide"} textTransform={"uppercase"}  ><b>{name}</b></Box>
 
-            <Image alt="" width={"100%"} Height={"100%"}  src={imgSrc} p={"1px"} roundedBottom={"xl"} position="relative"></Image>
+            <Image alt="" width={"100%"} Height={"100%"}  src={imgSrc} p={"1px"}  position="relative"></Image>
 
            
             

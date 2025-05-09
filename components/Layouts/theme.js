@@ -8,7 +8,7 @@ const styles = {
   global: props => ({
 
     body: {
-      bg: mode('#1E3E62','#1E3E62')(props)
+      // bgGradient:'linear(to-br, #7d4e57,#212d40,#7d4e57 )'
     }
 
 
@@ -31,6 +31,11 @@ const components = {
         textDecorationThickness: 4,
         marginTop: 3,
         marginBottom: 4
+      },
+      'h3': {
+        textDecoration: '',
+        fontSize: 14,
+        textDecorationColor: '#525252',
       }
     }
   },
@@ -45,9 +50,9 @@ const components = {
 
 
 const fonts = {
-  heading: "FiraCode Nerd Font",
-  body: "FiraCode Nerd Font",
-  Box: "FiraCode Nerd Font"
+  heading: "JetBrains Mono Variable, monospace",
+  body: "JetBrains Mono Variable, monospace",
+  Box: "JetBrains Mono Variable, monospace",
 }
 
 
