@@ -20,11 +20,6 @@
       "static/chunks/main.js",
       "static/chunks/pages/index.js"
     ],
-    "/Folios/3DWorks": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/3DWorks.js"
-    ],
     "/Folios/BingerNinja": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -35,15 +30,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/Folios/Donkeys.js"
     ],
+    "/Folios/Godot": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/Folios/Godot.js"
+    ],
     "/Folios/Horror": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/Folios/Horror.js"
-    ],
-    "/Folios/UnityRPG": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/UnityRPG.js"
     ],
     "/Folios/WebDev": [
       "static/chunks/webpack.js",

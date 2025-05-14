@@ -5,7 +5,7 @@ import { Image,OrderedList,ListItem,useColorModeValue } from '@chakra-ui/react';
 
 
 const MotionBox = motion(Box)
-const Horror = () =>{
+const Donkeys = () =>{
 
 return(
 
@@ -85,4 +85,4 @@ return(
 }
 
 
-export default Horror
+export default Donkeys
