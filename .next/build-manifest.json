@@ -25,25 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/Folios/BingerNinja.js"
     ],
-    "/Folios/Donkeys": [
+    "/Folios/Work&Experiences": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/Folios/Donkeys.js"
-    ],
-    "/Folios/Godot": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/Godot.js"
-    ],
-    "/Folios/Horror": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/Horror.js"
-    ],
-    "/Folios/WebDev": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/Folios/WebDev.js"
+      "static/chunks/pages/Folios/Work&Experiences.js"
     ],
     "/_app": [
       "static/chunks/webpack.js",

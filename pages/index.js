@@ -116,11 +116,12 @@ cccc::c,:,,,:c:::ccccclllccccccc::clclkOkkkkOOOkkkOOkllcccclkkkkkklllllkkOOOOO00
                 {/* <WorkBox imgSrc="/images/UnityMP.png" name="Donkeys"></WorkBox> */}
                 <WorkBox imgSrc="/images/HorrorGame.png" name="Horror"></WorkBox>
                 <WorkBox imgSrc="/images/godot.png" name="Godot"></WorkBox>
-                    <WorkBox imgSrc="/images/donkeys.png" name="Donkeys"></WorkBox>
+                <WorkBox imgSrc="/images/workexp.png" name="Work&Experiences"></WorkBox>
+                <WorkBox imgSrc="/images/donkeys.png" name="Donkeys"></WorkBox>
                 <WorkBox imgSrc="/images/Website.jpg" name="WebDev"></WorkBox>        
                 {/* <WorkBox imgSrc="/images/UnrealGame.png" name="Unreal"></WorkBox> */}
                 <WorkBox imgSrc="/images/3Dworks/2.jpg" name="3DWorks"></WorkBox>
-                    <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
+                <WorkBox imgSrc="/images/BingerWinner.png" name="BingerNinja"></WorkBox>
                     
 
                 {/* <WorkBox imgSrc="/images/UnrealGame.png" name="HeadBang"></WorkBox>  */}
